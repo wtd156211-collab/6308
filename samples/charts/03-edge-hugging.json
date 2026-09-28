@@ -1,0 +1,17 @@
+{
+  "canvas": {"width": 480, "height": 300},
+  "labels": [
+    {"id": "e01", "text": "靠右", "anchor": [479, 60], "priority": 1, "must_show": true},
+    {"id": "e02", "text": "Q3 合计", "anchor": [330, 296], "priority": 2},
+    {"id": "e03", "text": "右上", "anchor": [460, 8], "priority": 1, "must_show": true},
+    {"id": "e04", "text": "左上", "anchor": [476, 6], "priority": 3},
+    {"id": "e05", "text": "右下", "anchor": [420, 288], "priority": 2},
+    {"id": "e06", "text": "左中", "anchor": [0, 120], "priority": 3},
+    {"id": "e07", "text": "靠右", "anchor": [478, 294], "priority": 4},
+    {"id": "e08", "text": "上中", "anchor": [150, 4], "priority": 5},
+    {"id": "e09", "text": "贴底", "anchor": [3, 292], "priority": 4},
+    {"id": "e10", "text": "近边", "anchor": [20, 297], "priority": 5},
+    {"id": "e11", "text": "下中", "anchor": [240, 297], "priority": 5},
+    {"id": "e12", "text": "左上", "anchor": [4, 8], "priority": 6}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "canvas": {"width": 640, "height": 360},
+  "labels": [
+    {"id": "d01", "text": "川渝", "anchor": [279, 166], "priority": 1, "must_show": true},
+    {"id": "d02", "text": "西北", "anchor": [418, 240], "priority": 1, "must_show": true},
+    {"id": "d03", "text": "台湾", "anchor": [313, 179], "priority": 3},
+    {"id": "d04", "text": "陕甘", "anchor": [367, 178], "priority": 6},
+    {"id": "d05", "text": "华东", "anchor": [402, 215], "priority": 2},
+    {"id": "d06", "text": "华南", "anchor": [344, 183], "priority": 3},
+    {"id": "d07", "text": "云贵", "anchor": [290, 191], "priority": 4},
+    {"id": "d08", "text": "港澳", "anchor": [330, 174], "priority": 3},
+    {"id": "d09", "text": "湘鄂", "anchor": [295, 235], "priority": 5},
+    {"id": "d10", "text": "江浙", "anchor": [301, 173], "priority": 6},
+    {"id": "d11", "text": "皖豫", "anchor": [337, 239], "priority": 6},
+    {"id": "d12", "text": "闽赣", "anchor": [276, 210], "priority": 6},
+    {"id": "d13", "text": "东北", "anchor": [366, 240], "priority": 2},
+    {"id": "d14", "text": "华北", "anchor": [291, 195], "priority": 3},
+    {"id": "d15", "text": "华中", "anchor": [315, 183], "priority": 2},
+    {"id": "d16", "text": "西南", "anchor": [363, 244], "priority": 4},
+    {"id": "d17", "text": "辽吉", "anchor": [378, 258], "priority": 4},
+    {"id": "d18", "text": "琼桂", "anchor": [298, 186], "priority": 3}
+  ]
+}

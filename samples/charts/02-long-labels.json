@@ -1,0 +1,19 @@
+{
+  "canvas": {"width": 720, "height": 420},
+  "labels": [
+    {"id": "t01", "text": "西南大区渠道库存周转天数", "anchor": [86, 50], "priority": 1, "must_show": true},
+    {"id": "t02", "text": "华南区第三季度退货量", "anchor": [248, 45], "priority": 4},
+    {"id": "t03", "text": "云贵川渝四地配送时效", "anchor": [418, 43], "priority": 1},
+    {"id": "t04", "text": "东北大区平均客单价同比", "anchor": [579, 45], "priority": 6},
+    {"id": "t05", "text": "长三角一体化示范区订单", "anchor": [97, 151], "priority": 1},
+    {"id": "t06", "text": "西部陆海新通道运量", "anchor": [260, 147], "priority": 4},
+    {"id": "t07", "text": "华北区第三季度新增客户数", "anchor": [417, 147], "priority": 3},
+    {"id": "t08", "text": "中部六省社零总额增速", "anchor": [585, 145], "priority": 1, "must_show": true},
+    {"id": "t09", "text": "珠三角出口集装箱吞吐", "anchor": [96, 246], "priority": 1},
+    {"id": "t10", "text": "东部沿海重点城市渗透率", "anchor": [262, 247], "priority": 2},
+    {"id": "t11", "text": "京津冀协同发展统计口径", "anchor": [426, 239], "priority": 4},
+    {"id": "t12", "text": "华东区第三季度订单量", "anchor": [593, 244], "priority": 1},
+    {"id": "t13", "text": "黄河流域生态补偿金额", "anchor": [192, 344], "priority": 2},
+    {"id": "t14", "text": "东北亚跨境结算金额", "anchor": [454, 344], "priority": 5}
+  ]
+}

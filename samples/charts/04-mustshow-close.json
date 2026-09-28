@@ -1,0 +1,14 @@
+{
+  "canvas": {"width": 640, "height": 360},
+  "labels": [
+    {"id": "m01", "text": "订单", "anchor": [323, 205], "priority": 1, "must_show": true},
+    {"id": "m02", "text": "工单", "anchor": [345, 192], "priority": 1, "must_show": true},
+    {"id": "m03", "text": "客诉", "anchor": [339, 188], "priority": 1, "must_show": true},
+    {"id": "m04", "text": "退款", "anchor": [321, 195], "priority": 1, "must_show": true},
+    {"id": "m05", "text": "续费", "anchor": [337, 187], "priority": 1, "must_show": true},
+    {"id": "m06", "text": "退款时效", "anchor": [300, 150], "priority": 2},
+    {"id": "m07", "text": "物流", "anchor": [360, 230], "priority": 3},
+    {"id": "m08", "text": "库存", "anchor": [280, 240], "priority": 4},
+    {"id": "m09", "text": "对账", "anchor": [380, 160], "priority": 5}
+  ]
+}

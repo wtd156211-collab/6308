@@ -1,0 +1,12 @@
+place e01 435 50 36 20
+place e02 302 268 57 20
+place e03 442 16 36 20
+place e05 428 278 36 20
+place e06 8 110 36 20
+place e08 132 12 36 20
+place e09 11 264 36 20
+place e11 222 269 36 20
+place e12 12 16 36 20
+omit e04
+omit e07
+omit e10
