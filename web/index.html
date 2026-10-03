@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>图表标注避让</title>
+<style>
+body { margin: 16px; font-family: sans-serif; color: #222; }
+#verdict { font-size: 15px; font-weight: bold; margin-bottom: 8px; }
+#summary { font-size: 12px; background: #f6f6f6; padding: 8px;
+  overflow: auto; max-height: 220px; }
+#chart { display: block; border: 1px solid #ccc; background: #fff; }
+.anchor { fill: #333; }
+.anchor[data-omitted="1"] { fill: none; stroke: #c00; stroke-width: 1.5; }
+.label { fill: #fff; stroke: #333; stroke-width: 1; }
+.label-text { font-family: monospace; font-size: 12px; fill: #111; }
+.leader { stroke: #999; stroke-width: 1; }
+</style>
+</head>
+<body>
+<div id="verdict">省略 7 个，必须显示未放下 0 个</div>
+<pre id="summary">place d01 287 156 36 20
+place d02 426 230 36 20
+lead d03 345 169 36 20 313 179 345 179
+place d05 358 205 36 20
+lead d07 272 223 36 20 290 191 290 223
+lead d08 312 122 36 20 330 174 330 142
+lead d11 319 283 36 20 337 239 337 283
+lead d12 196 200 36 20 276 210 232 210
+place d13 348 248 36 20
+place d14 247 185 36 20
+place d15 297 191 36 20
+omit d04
+omit d06
+omit d09
+omit d10
+omit d16
+omit d17
+omit d18</pre>
+<svg id="chart" viewBox="0 0 640 360" width="640" height="360">
+<line class="leader" data-id="d03" x1="313" y1="179" x2="345" y2="179"/>
+<line class="leader" data-id="d07" x1="290" y1="191" x2="290" y2="223"/>
+<line class="leader" data-id="d08" x1="330" y1="174" x2="330" y2="142"/>
+<line class="leader" data-id="d11" x1="337" y1="239" x2="337" y2="283"/>
+<line class="leader" data-id="d12" x1="276" y1="210" x2="232" y2="210"/>
+<rect class="label" data-id="d01" x="287" y="156" width="36" height="20"/>
+<text class="label-text" data-id="d01" x="291" y="171">川渝</text>
+<rect class="label" data-id="d02" x="426" y="230" width="36" height="20"/>
+<text class="label-text" data-id="d02" x="430" y="245">西北</text>
+<rect class="label" data-id="d03" x="345" y="169" width="36" height="20"/>
+<text class="label-text" data-id="d03" x="349" y="184">台湾</text>
+<rect class="label" data-id="d05" x="358" y="205" width="36" height="20"/>
+<text class="label-text" data-id="d05" x="362" y="220">华东</text>
+<rect class="label" data-id="d07" x="272" y="223" width="36" height="20"/>
+<text class="label-text" data-id="d07" x="276" y="238">云贵</text>
+<rect class="label" data-id="d08" x="312" y="122" width="36" height="20"/>
+<text class="label-text" data-id="d08" x="316" y="137">港澳</text>
+<rect class="label" data-id="d11" x="319" y="283" width="36" height="20"/>
+<text class="label-text" data-id="d11" x="323" y="298">皖豫</text>
+<rect class="label" data-id="d12" x="196" y="200" width="36" height="20"/>
+<text class="label-text" data-id="d12" x="200" y="215">闽赣</text>
+<rect class="label" data-id="d13" x="348" y="248" width="36" height="20"/>
+<text class="label-text" data-id="d13" x="352" y="263">东北</text>
+<rect class="label" data-id="d14" x="247" y="185" width="36" height="20"/>
+<text class="label-text" data-id="d14" x="251" y="200">华北</text>
+<rect class="label" data-id="d15" x="297" y="191" width="36" height="20"/>
+<text class="label-text" data-id="d15" x="301" y="206">华中</text>
+<circle class="anchor" data-id="d01" cx="279" cy="166" r="3"/>
+<circle class="anchor" data-id="d02" cx="418" cy="240" r="3"/>
+<circle class="anchor" data-id="d03" cx="313" cy="179" r="3"/>
+<circle class="anchor" data-id="d04" cx="367" cy="178" r="4" fill="none" data-omitted="1"/>
+<circle class="anchor" data-id="d05" cx="402" cy="215" r="3"/>
+<circle class="anchor" data-id="d06" cx="344" cy="183" r="4" fill="none" data-omitted="1"/>
+<circle class="anchor" data-id="d07" cx="290" cy="191" r="3"/>
+<circle class="anchor" data-id="d08" cx="330" cy="174" r="3"/>
+<circle class="anchor" data-id="d09" cx="295" cy="235" r="4" fill="none" data-omitted="1"/>
+<circle class="anchor" data-id="d10" cx="301" cy="173" r="4" fill="none" data-omitted="1"/>
+<circle class="anchor" data-id="d11" cx="337" cy="239" r="3"/>
+<circle class="anchor" data-id="d12" cx="276" cy="210" r="3"/>
+<circle class="anchor" data-id="d13" cx="366" cy="240" r="3"/>
+<circle class="anchor" data-id="d14" cx="291" cy="195" r="3"/>
+<circle class="anchor" data-id="d15" cx="315" cy="183" r="3"/>
+<circle class="anchor" data-id="d16" cx="363" cy="244" r="4" fill="none" data-omitted="1"/>
+<circle class="anchor" data-id="d17" cx="378" cy="258" r="4" fill="none" data-omitted="1"/>
+<circle class="anchor" data-id="d18" cx="298" cy="186" r="4" fill="none" data-omitted="1"/>
+</svg>
+</body>
+</html>
